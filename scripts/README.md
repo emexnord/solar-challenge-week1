@@ -1,58 +1,75 @@
-# Streamlit Dashboard: Solar Country Comparison
+# 🌞 Cross-Country Solar Energy Insights
 
-## Overview
+This project is a **Streamlit dashboard** that helps visualize solar energy data (like Global Horizontal Irradiance - GHI) across different countries and regions. It shows helpful charts and tables, and lets you interact with the data using dropdowns and sliders.
 
-An interactive dashboard to compare solar potential across Benin, Sierra Leone, and Togo.
+---
 
-## Features
+## 📂 Project Structure
 
-- Select countries and metrics.
-- Interactive boxplots and bar charts.
-- Summary statistics (mean, median, std).
+```
+solar-challenge-week1/
+├── app/
+│   ├── main.py        # Main Streamlit app file
+│   ├── utils.py       # Helper functions for loading and processing data
+├── scripts/
+│   ├── README.md      # (Optional) Notes for scripts if needed
+├── data/              # (Local CSV files here, not uploaded to GitHub)
+```
 
-## How to Run Locally
+---
 
-1. Install requirements:
-   pip install streamlit pandas seaborn matplotlib
+## 🚀 How to Run Locally
 
-markdown
-Copy
-Edit 2. Run the app:
-streamlit run app/main.py
+1. **Clone the project**
 
-markdown
-Copy
-Edit
+```bash
+git clone https://github.com/emexnord/solar-challenge-week1
+cd solar-challenge-week1
+```
 
-## Deployment
+2. **(Optional) Create a virtual environment**
 
-Deploy via [Streamlit Community Cloud](https://streamlit.io/cloud).
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-## Folder Structure
+3. **Install dependencies**
 
-app/
-├── main.py
-├── utils.py
-scripts/
-└── README.md
+```bash
+pip install -r requirements.txt
+```
 
-markdown
-Copy
-Edit
-
-## Development Notes
-
-- CSV files are read from `data/` (not pushed to Git).
-- Commit message for initial version: `feat: basic Streamlit UI`
-
-## Running the app
-
-# How to Run the App
-
-To start the application, use the following command in your terminal:
+4. **Run the app**
 
 ```bash
 streamlit run app/main.py
 ```
 
-Upon successful launch, your default web browser will open and redirect you to the Streamlit dashboard, typically at [http://localhost:8501](http://localhost:8501).
+This will open the dashboard in your browser at [http://localhost:8501](http://localhost:8501).
+
+---
+
+## ⚙️ Features
+
+- Dropdown to select country.
+- Boxplot and other charts to explore solar data.
+- Table showing top regions based on GHI or other metrics.
+- Interactive design using Streamlit widgets.
+
+---
+
+## 🧹 Notes
+
+- The `data/` folder is ignored in `.gitignore` and only used locally.
+- Data files must be available locally to run the app.
+- Make sure column names in your CSV match what the app expects.
+
+---
+
+## 📌 Development Progress
+
+- ✅ Basic UI with dropdown and boxplot
+- ✅ Data loading utility functions
+
+---
