@@ -44,3 +44,15 @@ Edit
 
 - CSV files are read from `data/` (not pushed to Git).
 - Commit message for initial version: `feat: basic Streamlit UI`
+
+## Running the app
+
+# How to Run the App
+
+To start the application, use the following command in your terminal:
+
+```bash
+streamlit run app/main.py
+```
+
+Upon successful launch, your default web browser will open and redirect you to the Streamlit dashboard, typically at [http://localhost:8501](http://localhost:8501).
