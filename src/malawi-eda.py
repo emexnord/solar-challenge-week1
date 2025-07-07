@@ -3,6 +3,8 @@ import pandas as pd
 # Load the raw data file
 file_path = "data/Solar-Measurements_Malawi_Chileka_WB-ESMAP_Raw_00.dat"
 
+print("file imported")
+
 # Read the file, skipping metadata rows to get to the actual header
 with open(file_path, "r") as file:
     lines = file.readlines()
