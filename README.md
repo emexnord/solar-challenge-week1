@@ -1,5 +1,7 @@
 # Project Setup
 
+This project is an AI based analytic tool to analyse datas collected from over 200 data sources about solar challenge in the world. 
+
 ## Reproducing the Environment
 
 1. Clone the repository:
