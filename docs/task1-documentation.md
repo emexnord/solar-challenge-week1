@@ -1,5 +1,6 @@
 1. Introduction – Project Overview and Understanding
-   The Solar Challenge Week 1 project focuses on establishing a collaborative and reproducible data science workflow using version control (Git) and environment setup. The main objective was to create a GitHub repository with the necessary project scaffolding and continuous integration (CI) to ensure code quality and collaboration efficiency before starting any data analysis.
+
+The goal of the Solar Challenge Week 1 project is to set up a reliable and collaborative workflow for data science tasks. This involves using Git for version control and creating a consistent development environment. The main task was to create a GitHub repository with all the essential project folders and files, along with continuous integration (CI) to automatically check code quality. By building this foundation first, the team can work together smoothly and ensure everything is ready for future data analysis.
 
 2. Methodology – Process, Progress So Far, and Results
    Repository Setup:
