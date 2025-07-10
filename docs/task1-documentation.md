@@ -34,6 +34,9 @@ with:
 python-version: '3.11' - name: Install dependencies
 run: pip install -r requirements.txt
 
+This is a cicd which will run on push and pull requests. here first it will use the action/checkout@v3 to setup python and then install
+the requirements.tsx to install the packages.
+
 Folder Structure Implemented:
 markdown
 Copy
