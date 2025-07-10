@@ -49,14 +49,6 @@ Validate Outlier Detection:
 Test the outlier detection process on the cleaned dataset and analyze results.
 Visualize outliers using plots (e.g., box plots or time series) to confirm findings.
 
-Handle Missing Data:
-
-Check for missing or invalid data in key columns and apply imputation or removal as needed.
-
-Further Analysis:
-
-Perform additional statistical analysis or modeling based on project requirements (e.g., correlating GHI and DNI with weather conditions).
-
 Final Report:
 
 Document all findings, including cleaned data, outlier analysis, and visualizations, in a comprehensive report.
