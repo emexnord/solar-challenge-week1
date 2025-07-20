@@ -81,7 +81,6 @@ Modeling (if applicable): Prepare baseline forecasting models.
 
 Testing: Add unit tests for scripts inside src/ and scripts/.
 
-Final Report: Document findings, challenges, and recommendations.
 
 5. Conclusion – Summary of Current Progress and Confidence Going Forward
    So far, the foundational work of setting up the project repository, environment, CI workflow, and folder structure has been completed successfully. All changes were committed incrementally and merged following good Git practices. This setup ensures team members can now focus on data-driven tasks with confidence in the project’s reproducibility and maintainability.
